@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head_scripts/head')%>
+<body>
+    <header>
+        <%- include('header_footer/header')%>
+    </header>
+    <div class="imgContacto container-fluid">
+        <div class="col-lg-4 col-4 divFormulario">
+            <h2 class="h2">Envíenos su información, un abogado se contactará con usted.</h2>
+            <form id="formularioContacto" action="/send-email" method="POST">
+                <div class="mb-3">
+                    <input name="name" autofocus required placeholder="NOMBRE COMPLETO" type="text" class="form-control inpuContacto" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <input name="email" required placeholder="CORREO ELECTRONICO" type="email" class="form-control inpuContacto" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <input name="phone" required placeholder="NUMERO DE CELULAR" type="number" class="form-control inpuContacto" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <input name="message" placeholder="MENSAJE (OPCIONAL)" type="text" class="form-control inpuContacto" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <div class="g-recaptcha" data-sitekey="6Le-xIYcAAAAAIdaWdoMfuuTV39iYGIGXJNLMtQd"></div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label style="color: white" class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones y politica de privacidad</label>
+                </div>
+
+                <button id="botonFormulario" type="submit" class="btn btn-primary">ENVIAR</button>
+            </form>
+
+
+
+        </div>
+        <div class="col-lg-6 col-6 divInformacion">
+            <div class="card border-light mb-3 recuadrosInfoContacto" style="max-width: 18rem;">
+
+                <div class="card-body cuerpoRecuadrosContacto">
+                    <p >(L-V):7Am - 8Pm <br>
+                        (S):9Am - 5Pm
+                    </p>
+
+                </div>
+            </div>
+            <div class="card border-light mb-3 recuadrosInfoContacto" style="max-width: 18rem;">
+
+                <div class="card-body cuerpoRecuadrosContacto">
+
+                    <p class="card-text">Calle 13# 0-0 <br>
+                        Oficina 909
+                    </p>
+                </div>
+            </div>
+            <div class="card border-light mb-3 recuadrosInfoContacto" style="max-width: 18rem;">
+
+                <div class="card-body cuerpoRecuadrosContacto">
+
+                    <p class="card-text">
+                        312505424 <br>
+                        +61 42424242
+                    </p>
+                </div>
+            </div>
+            <div class="card border-light mb-3 recuadrosInfoContacto" style="max-width: 18rem;">
+
+                <div class="card-body cuerpoRecuadrosContacto">
+
+                    <p class="card-text">
+                        magnaabogados@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <%- include('header_footer/footer')%>
+        <%- include('head_scripts/scripts')%>
+    </body>
+</html>

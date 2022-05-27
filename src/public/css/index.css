@@ -1,0 +1,582 @@
+/*GENERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+body{
+    background-color: white;
+    font-family: "Playfair Display";
+    
+}
+
+.navbar{
+
+    background-color: white;
+}
+.row{
+    margin: 0px;
+    padding-right: 0px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+.card{
+    border: none;
+}
+.img-thumbnail{
+    background: none;
+    border: none;
+}
+
+/*FIN GENERAL*/
+
+
+/*HEADER*/
+.navContenedor{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.cssHg{
+    display: flex;
+    align-items: center;
+}
+.cssHgHijo{
+    padding-right: 30px;
+}
+
+.navNavegacionBotones{
+    text-decoration: none;
+    color: #435468;
+    border-left: 4px solid darkorange;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+.headerMagna{
+    display: inline;
+    color: darkorange;
+    padding-top: 5px;
+}
+.headerAbogados{
+    display: inline;
+    color: #435468;
+    padding-top: 5px; 
+}
+/*FIN HEADER*/
+
+/*BLOQUE 1*/
+.imgBloque1{
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    background-image: url("/Imagenes/descarga.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.contenedorLema{
+    top: 10%;
+}
+.lema{
+    font-size: 60px;
+    color: #435468;
+    text-align: inherit;
+    padding-top: 20%;
+    padding-bottom: 27%;
+}
+.cuadrosIndice{
+    background-color: darkorange;
+    float: left;
+    width: 25%;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrosMenu{
+    background-color: darkorange;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 130px;
+    width: 50%;
+
+}
+.cuadroMenuHijo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cuadroMenuHov3r{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.cuadroMenuHov3r:hover{
+    background-color: white;
+    color:#435468;
+    transition: background-color 0.75s ease 0.05s;
+}
+/*FIN BLOQUE 1*/
+
+/*BLOQUE 2*/
+.imgBloque2{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-image: url("/Imagenes/C1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contenedorCuadrosBloque2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.divContenedorTextoBloque2{
+    position: relative;
+    background-color:rgba(67,84,104,0.7);
+    height: 30vh;
+    margin: 30px;
+    padding: 0px;
+
+
+}
+.cuadroBloque2{
+    width: 100%;
+    height: 100%;
+
+}
+.divContenedorTextoBloque2 h1{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.divContenedorTextoBloque2:hover{
+    background-color: rgba(255,140,0,0.7);
+}
+.divContenedorTextoBloque2 h6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    margin: 0px;
+    padding: 30px;
+}
+.divContenedorTextoBloque2:hover h1 {
+    opacity: 0;
+}
+.divContenedorTextoBloque2:hover h6 {
+    opacity: 100%;
+}
+
+/*FIN BLOQUE2*/
+
+/*BLOQUE 3*/
+.imgBloque3{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    background-color: white;
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+.contornoCartas{
+    border: darkorange solid 1px;
+    height: 180px;
+    width: 180px;
+}
+.justificarCartas{
+    display: flex;
+    justify-content: center;
+}
+.areasTexto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #435468;
+    margin-top: 2%;
+
+    margin-bottom: 2%;
+}
+.iconosAreas{
+    height: 50%;
+    width: 100%;
+    color: #435468 ;
+    z-index: 2;
+    position: relative;
+    top: 20px;
+}
+.botonCartas{
+    width: 100%;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #435468;
+    position: relative;
+    font-size: 16px;
+    top: 20px;
+    height: 25px;
+    z-index: 2;
+    padding: 0;
+    border-radius: 0;
+    background-color: darkorange;
+}
+.titulosCartas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #435468;
+    position: relative;
+    font-size: 16px;
+    z-index: 2;
+    top: 20px;
+}
+.cambioColorCartas{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: white;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    border: darkorange solid;
+    left: 0;
+    align-items: center;
+}
+.aAreasEspecializacion:hover + .cambioColorCartas{
+    z-index: 1;
+    background-color: darkorange;
+    transition: background-color 0.75s ease 0.05s;
+
+;
+}
+.botonCartas:hover{
+    background-color: darkorange;
+    color: white;
+}
+.aAreasEspecializacion{
+    text-decoration: none;
+}
+/*FIN BLOQUE3*/
+
+/*BLOQUE4_2*/
+.imgBloque4_2{
+    width: 100%;
+    position: relative;
+    height: 600px;
+    background-color: #435468;
+    /*background-image: url("/Imagenes/fondoBlanco3.jpg");*/
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.contenedorHijoBloque4{
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+.presentacionAbogados4_2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    float: right;
+}
+.carlosFoto{
+    width: 300px;
+    height: 470px;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+}
+.ladyFoto{
+    width: 300px;
+    height: 470px;
+    position: absolute;
+    right: 20px;
+    top: 10%;
+}
+.centrarImagenes4_2{
+    display: flex;
+    align-items: center;
+}
+.textoDescripciones{
+    text-align: justify;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.nombresAbogados{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: darkorange;
+}
+.img-thumbnail{
+    padding: 0;
+    border-radius: 0;
+}
+/*FIN BLOQUE4_2*/
+
+
+
+
+/*BLOQUE 5*/
+.imgBloque5{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-color: white;
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+.imgBloque5 .row{
+    width: 100%;
+}
+.bloque5hijo{
+    width: 100%;
+    height: 100%;
+}
+.bloque5hijo .row{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.bloque5hijo .row span{
+    font-weight: 500;
+    font-size: 2rem;
+    color: black;
+}
+.bloque5hijo .row h2{
+    border-left: darkorange solid 6px;
+    padding-left: 2%;
+}
+.bloque5hijo .row .typed{
+    color: darkorange;
+    padding: 20px;
+}
+/*FIN BLOQUE5*/
+/*BLOQUE6*/
+.imgBloque6{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-image: url("/Imagenes/IMG_ESTAD.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contenedorHijoBloque6{
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+}
+.datosIzqBloq6{
+    width: 40%;
+    height: 29%;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    background-color: rgba(255,140,0,0.7);
+
+}
+.datosDerBloq6{
+    width: 50%;
+    height: 85%;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    background-color: rgba(67,84,104,0.7);
+}
+.datosDerBloq6 .laFirmaH1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: darkorange solid 1px;
+
+}
+.datosDerBloq6 .numeroH1{
+    font-size: 250px;
+    text-align: center;
+    color: darkorange;
+    padding-right: 50px;
+}
+.datosDerBloq6 .aniosDeExp{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.datosIzqBloq6 .datosNumericosIzq{
+    text-align: center;
+    color: orange;
+    font-size: 90px;
+
+}
+.datosIzqBloq6 .textoDatosIzq{
+    color: white;
+    text-align: center;
+
+}
+/*FIN BLOQUE6*/
+/*BLOQUE7*/
+.imgBloque7{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    background-color: white;
+    justify-content: center;
+    content: "";
+    display: flex;
+    left: 0;
+    top: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    align-items: center;
+}
+.bloque7hijo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.bloque7hijo h1{
+    color: #435468;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 20vh;
+    width: 70%;
+    border-bottom: #435468 2px solid;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    display: flex;
+    align-items: center;
+}
+.bloque7hijo div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+}
+.bloque7hijo div button{
+    height: 10vh;
+    width: 30vh;
+    color: darkorange;
+    border-color: darkorange;
+    transition: none;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.bloque7hijo div button:hover{
+    background-color: darkorange;
+    color: white;
+}
+/*FIN BLOQUE7*/
+
+
+/*FOOTER*/
+.bg-primary {
+    background-color: darkorange!important;
+}
+/*FIN FOOTER*/
