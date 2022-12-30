@@ -17,6 +17,9 @@ router.get('/politicaDePrivacidad', (req, res) => {
 router.get('/areasEspecializacion', (req, res) => {
   res.render('areasEspecializacion', { title: 'Areas de especialiazación-MagnaAboados' });
 });
+router.get('/logInAdmin', (req, res) => {
+  res.render('logInAdmin', { title: 'Inicio de sesión - ADMIN' });
+});
 
 router.post('/send-email', async (req, res) => {
   const {name, email, phone, message} = req.body;
